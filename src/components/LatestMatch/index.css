@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.latest-match-cont {
+  background-color: #0f172a;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .latest-match-cont {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.left-side-text-container {
+  width: 240px;
+}
+.right-side-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media screen and (max-width: 767px) {
+  .right-side-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.comp-team {
+  font-size: 22px;
+  font-weight: 500;
+}
+.date {
+  font-size: 20px;
+  font-weight: 500;
+}
+.comp-logo {
+  width: 200px;
+}
+.latest-innings {
+  font-size: 20px;
+  font-weight: 500;
+}
+.man-of-match-head {
+  font-size: 20px;
+  font-weight: 500;
+}
+.umpires-head {
+  font-size: 20px;
+  font-weight: 500;
+}
+.values-latest {
+  font-size: 12px;
+}

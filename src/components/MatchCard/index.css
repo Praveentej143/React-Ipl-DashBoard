@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.recent-match-list-item {
+  background-color: #0f172a;
+  border-radius: 14px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  height: 400px;
+  margin: 40px;
+}
+.compt-logo {
+  width: 150px;
+  height: 150px;
+}
+.team-heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.result-val {
+  font-size: 12px;
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}

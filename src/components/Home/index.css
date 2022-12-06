@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    height: 100vh;
+  }
+}
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 4px;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    height: 0%;
+  }
+}
+.card-container {
+  display: flex;
+  align-items: center;
+}
+.dashboard-heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.ipl-logo {
+  width: 40px;
+  height: 55px;
+  margin-right: 10px;
+}
+.team-card-list-container {
+  width: 80%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
